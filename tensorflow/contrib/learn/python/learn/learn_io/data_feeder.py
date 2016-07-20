@@ -34,6 +34,7 @@ from tensorflow.python.ops import array_ops
 # pylint: disable=g-multiple-import,g-bad-import-order
 from .pandas_io import HAS_PANDAS, extract_pandas_data, extract_pandas_matrix, extract_pandas_labels
 from .dask_io import HAS_DASK, extract_dask_data, extract_dask_labels
+from .scipy_io import HAS_SCIPY
 # pylint: enable=g-multiple-import,g-bad-import-order
 
 
@@ -203,6 +204,10 @@ def _access(data, iloc):
     import pandas as pd  # pylint: disable=g-import-not-at-top
     if isinstance(data, pd.Series) or isinstance(data, pd.DataFrame):
       return data.iloc[iloc]
+  if HAS_SCIPY:
+    from scipy.sparse.base import spmatrix
+    if isinstance(data, spmatrix):
+      return data[iloc].toarray()
   return data[iloc]
 
 
