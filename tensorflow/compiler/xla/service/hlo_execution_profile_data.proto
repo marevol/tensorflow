@@ -20,6 +20,7 @@ package xla;
 import "tensorflow/compiler/xla/service/hlo_profile_printer_data.proto";
 
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/compiler/xla/service/hlo_execution_profile_data_go_proto";
 
 message HloExecutionProfileData {
   HloProfilePrinterData printer_data = 1;

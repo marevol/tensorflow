@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.tpu;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf/tpu/optimization_parameters_go_proto";
 
 import "google/protobuf/wrappers.proto";
 import "tensorflow/compiler/xla/service/hlo.proto";

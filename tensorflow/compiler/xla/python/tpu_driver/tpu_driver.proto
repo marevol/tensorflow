@@ -16,6 +16,7 @@
 syntax = "proto2";
 
 package tpu_driver;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/compiler/xla/python/tpu_driver/tpu_driver_go_proto";
 
 enum MemoryRegion { HBM = 1; }
 

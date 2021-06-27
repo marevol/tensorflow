@@ -3,6 +3,7 @@
 syntax = "proto3";
 
 package tensorflow.profiler;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/protobuf/hardware_types_go_proto";
 
 // Types of hardware profiled.
 enum HardwareType {

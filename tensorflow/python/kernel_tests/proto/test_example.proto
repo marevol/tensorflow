@@ -3,6 +3,7 @@
 syntax = "proto2";
 
 package tensorflow.contrib.proto;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/python/kernel_tests/proto/test_example_go_proto";
 
 import "tensorflow/core/framework/types.proto";
 

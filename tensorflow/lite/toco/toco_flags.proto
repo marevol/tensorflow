@@ -14,6 +14,7 @@
 syntax = "proto2";
 
 package toco;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/lite/toco/toco_flags_go_proto";
 
 import "tensorflow/lite/toco/types.proto";
 

@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/profiler_service_monitor_result_go_proto";
 
 message ProfilerServiceMonitorResult {
   // Represents the different types of responses from the profiling service.

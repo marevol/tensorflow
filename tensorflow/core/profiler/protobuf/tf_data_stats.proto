@@ -3,6 +3,7 @@
 syntax = "proto3";
 
 package tensorflow.profiler;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/protobuf/tf_data_stats_go_proto";
 
 // Stat for iterator.
 message IteratorStat {

@@ -6,6 +6,7 @@ import "tensorflow/compiler/xla/service/hlo.proto";
 import "tensorflow/core/protobuf/error_codes.proto";
 
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf/tpu/compilation_result_go_proto";
 
 // Describes the result of a TPU compilation. This is also used as TPU
 // compilation result status payload.

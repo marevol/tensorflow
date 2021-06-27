@@ -22,6 +22,7 @@
 syntax = "proto2";
 
 package tflite.proto;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/lite/experimental/acceleration/configuration/configuration_go_proto";
 
 // ExecutionPreference is used to match accelerators against the preferences of
 // the current application or usecase. Some of the values here can appear both

@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.tensorrt;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/compiler/tf2tensorrt/utils/trt_engine_instance_go_proto";
 
 import "tensorflow/core/framework/tensor_shape.proto";
 

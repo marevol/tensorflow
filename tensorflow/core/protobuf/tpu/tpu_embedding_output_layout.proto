@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.tpu;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf/tpu/tpu_embedding_output_layout_go_proto";
 
 // In the comments here, "layout" refers to the top-level EmbeddingOutputLayout
 // proto contained in the TPUEmbeddingConfiguration.

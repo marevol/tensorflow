@@ -3,6 +3,7 @@
 syntax = "proto3";
 
 package tensorflow.profiler;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/protobuf/diagnostics_go_proto";
 
 message Diagnostics {
   repeated string info = 1;

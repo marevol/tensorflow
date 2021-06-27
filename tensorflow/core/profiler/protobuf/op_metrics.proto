@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.profiler;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/protobuf/op_metrics_go_proto";
 
 // What the dimension represents, e.g. spatial, feature or batch.
 enum LayoutDimensionSemantics {

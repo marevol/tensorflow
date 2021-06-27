@@ -16,6 +16,7 @@ limitations under the License.
 syntax = "proto3";
 
 package tensorflow;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/debug/debug_service_go_proto";
 
 import "tensorflow/core/framework/tensor.proto";
 import "tensorflow/core/profiler/tfprof_log.proto";

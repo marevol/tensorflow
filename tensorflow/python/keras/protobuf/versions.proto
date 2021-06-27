@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package third_party.tensorflow.python.keras.protobuf;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/python/keras/protobuf/versions_go_proto";
 
 // This file is a copy of the TensorFlow Versions proto.
 // Keep this file in sync with the source proto definition at

@@ -3,6 +3,7 @@
 syntax = "proto3";
 
 package third_party.tensorflow.python.keras.protobuf;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/python/keras/protobuf/saved_metadata_go_proto";
 
 import "tensorflow/python/keras/protobuf/versions.proto";
 

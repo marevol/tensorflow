@@ -17,6 +17,7 @@ syntax = "proto3";
 package tensorflow;
 
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/util/memmapped_file_system_go_proto";
 
 // A message that describes one region of memmapped file.
 message MemmappedFileSystemDirectoryElement {

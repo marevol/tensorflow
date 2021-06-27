@@ -2,6 +2,7 @@
 syntax = "proto3";
 
 package tensorflow.tfprof.pprof;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/profile_go_proto";
 
 message Profile {
   repeated ValueType sample_type = 1;

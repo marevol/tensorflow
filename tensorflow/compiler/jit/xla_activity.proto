@@ -16,6 +16,7 @@ limitations under the License.
 syntax = "proto3";
 
 package tensorflow;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/compiler/jit/xla_activity_go_proto";
 
 import "tensorflow/core/protobuf/config.proto";
 

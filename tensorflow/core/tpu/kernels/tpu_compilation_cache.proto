@@ -15,6 +15,7 @@ limitations under the License.
 syntax = "proto3";
 
 package tensorflow.tpu;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/tpu/kernels/tpu_compilation_cache_go_proto";
 
 import "tensorflow/compiler/tf2xla/host_compute_metadata.proto";
 import "tensorflow/core/tpu/kernels/tpu_compilation_cache_common.proto";

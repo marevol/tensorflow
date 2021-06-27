@@ -16,6 +16,7 @@ limitations under the License.
 syntax = "proto2";
 
 package tflite.evaluation;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/lite/tools/evaluation/proto/evaluation_stages_go_proto";
 
 import "tensorflow/lite/tools/evaluation/proto/preprocessing_steps.proto";
 

@@ -20,6 +20,7 @@ limitations under the License.
 syntax = "proto3";
 
 package third_party.tensorflow.python.keras.protobuf;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/python/keras/protobuf/projector_config_go_proto";
 
 message SpriteMetadata {
   string image_path = 1;

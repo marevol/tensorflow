@@ -22,6 +22,7 @@ import "tensorflow/compiler/xla/service/hlo.proto";
 import "tensorflow/compiler/xla/xla_data.proto";
 
 option optimize_for = SPEED;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/compiler/xla/python/tpu_driver/tpu_service_go_proto";
 
 message StatusMessage {
   required int32 code = 1;

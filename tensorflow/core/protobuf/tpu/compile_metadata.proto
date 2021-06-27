@@ -9,6 +9,7 @@ import "tensorflow/core/framework/types.proto";
 import "tensorflow/core/protobuf/tpu/dynamic_padding.proto";
 
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf/tpu/compile_metadata_go_proto";
 
 // This is an experimental proto used in the TF/XLA bridge to store metadata to
 // a compile op (e.g. _TPUCompileMlir).

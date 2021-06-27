@@ -3,6 +3,7 @@
 syntax = "proto3";
 
 package tensorflow.profiler.tfstreamz;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/protobuf/tfstreamz_go_proto";
 
 // A proxy proto to serialize tensorflow::monitoring::Percentiles
 

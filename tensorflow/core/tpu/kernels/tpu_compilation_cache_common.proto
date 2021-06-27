@@ -15,6 +15,7 @@ limitations under the License.
 syntax = "proto3";
 
 package tensorflow.tpu;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/tpu/kernels/tpu_compilation_cache_common_go_proto";
 
 // Target type for compilation cache fetch operation.
 enum CompilationCacheFetchTarget {

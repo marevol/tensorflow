@@ -3,6 +3,7 @@ syntax = "proto3";
 
 import "tensorflow/core/example/feature.proto";
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/util/example_proto_fast_parsing_test_go_proto";
 
 package tensorflow;
 

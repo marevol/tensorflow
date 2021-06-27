@@ -18,6 +18,7 @@ syntax = "proto3";
 package xla;
 
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/compiler/xla/service/hlo_profile_printer_data_go_proto";
 
 // Describes how to pretty-print a profile counter array gathered for a specific
 // HloModule.

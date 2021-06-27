@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package tensorflow;
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/python/training/checkpoint_state_go_proto";
+
 
 // Protocol buffer representing the checkpoint state.
 message CheckpointState {

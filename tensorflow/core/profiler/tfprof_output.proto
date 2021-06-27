@@ -4,6 +4,7 @@ import "tensorflow/core/framework/tensor_shape.proto";
 import "tensorflow/core/framework/types.proto";
 
 package tensorflow.tfprof;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/tfprof_output_go_proto";
 
 message TFProfTensorProto {
   DataType dtype = 1;

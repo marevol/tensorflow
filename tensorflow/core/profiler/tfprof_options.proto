@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.tfprof;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/tfprof_options_go_proto";
 
 // Refers to tfprof_options.h/cc for documentation.
 // Only used to pass tfprof options from Python to C++.

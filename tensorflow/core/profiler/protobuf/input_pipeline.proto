@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.profiler;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/protobuf/input_pipeline_go_proto";
 
 import "google/protobuf/any.proto";
 import "tensorflow/core/profiler/protobuf/diagnostics.proto";

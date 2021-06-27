@@ -16,6 +16,7 @@ limitations under the License.
 syntax = "proto3";
 
 package xla;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/compiler/xla/xla_go_proto";
 
 import "tensorflow/compiler/xla/service/hlo.proto";
 import "tensorflow/compiler/xla/xla_data.proto";

@@ -15,6 +15,7 @@ limitations under the License.
 syntax = "proto3";
 
 package tensorflow.tpu;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/tpu/kernels/tpu_compile_go_proto";
 
 import "tensorflow/core/framework/attr_value.proto";
 import "tensorflow/core/framework/function.proto";

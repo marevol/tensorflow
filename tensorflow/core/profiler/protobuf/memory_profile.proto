@@ -2,6 +2,7 @@
 syntax = "proto3";
 
 package tensorflow.profiler;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/protobuf/memory_profile_go_proto";
 
 // The memory activity that causes change of memory state.
 enum MemoryActivity {

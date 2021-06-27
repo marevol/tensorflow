@@ -3,6 +3,7 @@ syntax = "proto3";
 package mlir.quant;
 
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/compiler/mlir/lite/quantization/quantization_info_go_proto";
 
 // Represents the quantization parameters for a list of named tensors.
 message QuantizationInfo {

@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/profiler/profiler_service_go_proto";
 
 import "tensorflow/core/profiler/profiler_options.proto";
 import "tensorflow/core/profiler/profiler_service_monitor_result.proto";

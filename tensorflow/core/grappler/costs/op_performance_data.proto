@@ -17,6 +17,7 @@ syntax = "proto3";
 
 package tensorflow;
 option cc_enable_arenas = true;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/grappler/costs/op_performance_data_go_proto";
 
 import "tensorflow/core/framework/tensor.proto";
 import "tensorflow/core/framework/tensor_shape.proto";

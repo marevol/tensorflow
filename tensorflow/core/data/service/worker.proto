@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.data;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/data/service/worker_go_proto";
 
 import "tensorflow/core/data/dataset.proto";
 import "tensorflow/core/data/service/common.proto";

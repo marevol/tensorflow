@@ -3,6 +3,7 @@ syntax = "proto2";
 import "google/protobuf/descriptor.proto";
 
 package third_party.tensorflow.tools.api;
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/tools/api/lib/api_objects_go_proto";
 
 message TFAPIMember {
   optional string name = 1;
